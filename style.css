@@ -1,0 +1,22 @@
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.breed, input, label{border-radius: 15px;
+	width: 15%}
+
+input, label {
+    margin: .4rem 0;
+ border-radius:5% / 20%;  
+}
+
+textarea:invalid {
+  border: 2px solid red;
+}
+
+textarea:valid {
+   border: 2px  lime green;
+}
+
+html{background-image:url(https://static.zerochan.net/Saber.%28Fate.stay.night%29.full.1890530.jpg)
